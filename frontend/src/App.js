@@ -9,7 +9,7 @@ import "./tailwind.output.css";
 
 const App = () => {
 	const [tasks, setTasks] = useState([]);
-	const API_URL = "http://localhost:4000/api/tasks";
+	const API_URL = "https://todolist-1-nqf2.onrender.com/api/tasks";
 
 	const fetchTasks = async () => {
 		const response = await axios.get(API_URL);
